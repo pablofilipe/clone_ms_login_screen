@@ -98,6 +98,10 @@ p {
     padding: 8px 30px;
 }
 
+#next-step:hover {
+    background-color: #075d9e;
+}
+
 /* Opções de entrada. */
 .options-open {
     margin-top: 20px;
