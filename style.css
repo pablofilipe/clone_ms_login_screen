@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Segoe UI Webfont",-apple-system,"Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+    background: url('../img/bg-login.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    /* border: 1px solid red; */
+}
+
+.card, .options-open {
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+.card {
+    padding: 44px;
+}
+
+.form {
+    width: 350px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.mg-top {
+    margin-top: 15px;
+}
+
+#input-user {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 0;
+    box-shadow: 0 0 0 0;
+    border-left: 0 none;
+    border-top: 0 none;
+    border-right: 0 none;
+    border-bottom: .1rem solid #1b1b1b;
+    outline: 0;
+    margin-top: 10px;
+}
+
+p, .crie-key, .key-security {
+    font-size: .8125rem;
+}
+
+p {
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+
+.crie-key {
+    text-decoration: none;
+    color: #0067b8;
+    display: inline;
+}
+
+.crie-key:hover, .key-security:hover {
+    text-decoration: underline;
+}
+
+.key-security {
+    text-decoration: none;
+    color: #0067b8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.key-security img {
+    margin-left: 5px;
+}
+
+.next {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#next-step {
+    justify-content: right;
+    cursor: pointer;
+    background-color: #0067b8;
+    border: 1px solid #0067b8;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+/* Opções de entrada. */
+.options-open {
+    margin-top: 20px;
+    padding: 8px 44px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.options-open:hover {
+    background-color: #e4e4e4;
+}
+
+/* Rodapé. */
+.rodape {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    bottom: 5px;
+    /* border: 1px solid red; */
+}
+
+.rodape-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.rodape-links > a {
+    /* display: inline; */
+    font-size: .72125rem;
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+}
+
+#key-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#key-options img {
+    width: 30px;
+}
+
+#key-options img {
+    padding-right: 12px;
+}
