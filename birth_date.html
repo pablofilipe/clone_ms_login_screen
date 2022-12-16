@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Qual é sua data de nascimento?</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" type="image/x-icon" href="img/microsoft.ico">
+        <style>
+            #row {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 5rem;
+            }
+
+            label {
+                font-size: .8rem;
+                /* font-weight: bold; */
+            }
+
+            .select-country {
+                width: 100%;
+                padding: 8px 0;
+                border-radius: 0;
+                box-shadow: 0 0 0 0;
+                border-left: 0 none;
+                border-top: 0 none;
+                border-right: 0 none;
+                border-bottom: .1rem solid #6b6767;
+                outline: 0;
+                cursor: pointer;
+                font-size: .9rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="logo mg-top">
+                    <img src="img/microsoft_logo.png" alt="">
+                </div>
+
+                <div class="account mg-top" style="display: flex; flex-direction: row; align-items: center; justify-content: c;">
+                    <a href="name_lastname.html" style="margin-right: 5px;">
+                        <img src="img/to_back.png" alt="">
+                    </a>
+                    <span style="margin-bottom: 6px">admiteste@outlook.com
+                    </span>
+                </div>
+
+                <div class="form">
+                    <h1 style="margin-top: 5px">
+                        Qual é sua data de nascimento?
+                    </h1>
+
+                    <p style="font-size:medium; margin: 10px 0; color: #6b6767">
+                        Precisamos de mais algumas informações para configurar sua conta. Sua data de nascimento nos ajuda a fornecer as configurações adequadas à idade.
+                    </p>
+
+                    <form action="">
+                        <label for="">País/região</label>
+                        <div id="row" style="margin-bottom: 15px;">
+                            <select class="select-country">
+                                <option value="">Brasil</option>
+                                <option value="">Estados Unidos</option>
+                                <option value="">Espanha</option>
+                            </select>
+                        </div>
+
+                        <label for="">Data de nascimento</label>
+                        <div style="display: flex;">
+                            <select class="select-country" style="margin-right: 5px;">
+                                <option value="">Dia</option>
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                                <option value="">04</option>
+                                <option value="">05</option>
+                                <option value="">06</option>
+                                <option value="">07</option>
+                                <option value="">08</option>
+                                <option value="">09</option>
+                                <option value="">10</option>
+                                <option value="">11</option>
+                                <option value="">12</option>
+                                <option value="">13</option>
+                                <option value="">14</option>
+                                <option value="">15</option>
+                                <option value="">16</option>
+                                <option value="">17</option>
+                                <option value="">18</option>
+                                <option value="">19</option>
+                                <option value="">20</option>
+                                <option value="">21</option>
+                                <option value="">22</option>
+                                <option value="">23</option>
+                                <option value="">24</option>
+                                <option value="">25</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                            </select>
+
+                            <select class="select-country" style="margin-right: 5px;">
+                                <option value="">Mês</option>
+                                <option value="">Janeiro</option>
+                                <option value="">Fevereiro</option>
+                                <option value="">Março</option>
+                                <option value="">Abril</option>
+                                <option value="">Maio</option>
+                                <option value="">Junho</option>
+                                <option value="">Julho</option>
+                                <option value="">Agosto</option>
+                                <option value="">Setembro</option>
+                                <option value="">Outubro</option>
+                                <option value="">Novembro</option>
+                                <option value="">Dezembro</option>
+                            </select>
+
+                            <select class="select-country">
+                                <option value="">Ano</option>
+                                <option value="">2022</option>
+                                <option value="">2021</option>
+                                <option value="">2020</option>
+                                <option value="">2019</option>
+                            </select>
+                        </div>
+
+                        <div class="next mg-top">
+                            <a href="security_information.html">
+                                <button id="next-step" type="button">Próximo</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape">
+            <div class="rodape-links">
+                <a href="#">Termos de uso</a>
+                <a href="#">Privacidade e cookies</a>
+            </div>
+        </div>
+    </body>
+</html>
